@@ -27,7 +27,7 @@ Note that we put the dataset under the directory .\federated-learning-master\Fol
 
 
 ## Training
-In this code, we compare 10 optimization methods: **FedAvg**, **FedAvg-FT**, **FedPer**, **LG-FedAvg**, **FedRep**, **FedBABU**, **Ditto**, **FedSR-FT**, **FedPAC**, and **FedCR**. Those methods use vanilla SGD on clients. To recreate our experimental results for each optimizer, for example, for 100 clients and 10% participation rate, on the cifar100 data set with Dirichlet (0.3) split, run those commands for different methods:
+In this code, we compare 10 optimization methods: **FedAvg**, **FedAvg-FT**, **FedPer**, **LG-FedAvg**, **FedRep**, **FedBABU**, **Ditto**, **FedSR-FT**, **FedPAC**, and **FedCR**. Those methods use vanilla SGD on clients. To recreate our experimental results for each method, for example, for 100 clients and 10% participation rate, on the cifar100 data set with Dirichlet (0.3) split, run those commands for different methods:
 
 **FedAvg** and ***FedAvg-FT**:
 ```
