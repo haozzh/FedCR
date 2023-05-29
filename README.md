@@ -21,7 +21,7 @@ Note that we put the dataset under the directory .\federated-learning-master\Fol
 | CIFAR-10         | CNN (with two convolutional layers) | Image classification      |
 | CIFAR-100        | CNN (with two convolutional layers) | Image classification      |
 | EMNIST           | NN (fully connected neural network) | Digit recognition         |
-| FMNIST           | CNN (with two convolutional layer   | Next-character prediction |
+| FMNIST           | CNN (with two convolutional layer   | Image classification      |
 
 <!-- mdformat on -->
 
