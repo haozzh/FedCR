@@ -4,7 +4,7 @@
 This directory contains source code for evaluating federated learning with different methods on various models and tasks. The code was developed for a paper, "FedCR: Personalized Federated Learning Based on Across-Client Common Representation with Conditional Mutual Information Regularization".
 
 ## Requirements
-
+ 
 Some pip packages are required by this library, and may need to be installed. For more details, see `requirements.txt`. We recommend running `pip install --requirement "requirements.txt"`.
 
 Below we give a summary of the datasets, tasks, and models used in this code.
