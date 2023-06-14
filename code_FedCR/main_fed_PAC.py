@@ -118,7 +118,7 @@ if __name__ == '__main__':
 
         server.aggregate_weight_updates(clients=participating_clients, iter=iter)
         server.global_feature_centroids(clients=participating_clients)
-        #server.Get_classifier(participating_clients, w_glob_keys)
+        #server.Get_classifier(participating_clients, w_glob_keys) #for non-iid 2 case, the use of classifier combination will sometimes degrade the experimental performance
 
 #-----------------------------------------------test--------------------------------------------------------------------
 
