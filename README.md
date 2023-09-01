@@ -45,32 +45,32 @@ python /home/zhanghao/code_Fed_VIB/federated-learning-master/federated-learning-
 
 **FedRep**:
 ```
-python /home/zhanghao/code_Fed_VIB/federated-learning-master/federated-learning-master/main_fed.py  --filepath FedRep.txt --dataset CIFAR100 --method fedrep --lr 0.01 --local_ep 10 --local_rep_ep 1 --lr_decay 1 --rule Dirichlet --dir_a 0.3 --gpu 0 --epoch 500 --beta 0.001 --bs 10 --local_bs 48
+python main_fed.py  --filepath FedRep.txt --dataset CIFAR100 --method fedrep --lr 0.01 --local_ep 10 --local_rep_ep 1 --lr_decay 1 --rule Dirichlet --dir_a 0.3 --gpu 0 --epoch 500 --beta 0.001 --bs 10 --local_bs 48
 ```
 
 **FedBABU**:
 ```
-python /home/zhanghao/code_Fed_VIB/federated-learning-master/federated-learning-master/main_fed.py  --filepath FedBABU.txt --dataset CIFAR100 --method fedbabu --lr 0.01 --local_ep 10 --lr_decay 1 --rule Dirichlet --dir_a 0.3 --gpu 0 --epoch 500 --beta 0.001 --bs 10 --local_bs 48
+python main_fed.py  --filepath FedBABU.txt --dataset CIFAR100 --method fedbabu --lr 0.01 --local_ep 10 --lr_decay 1 --rule Dirichlet --dir_a 0.3 --gpu 0 --epoch 500 --beta 0.001 --bs 10 --local_bs 48
 ```
 
 **Ditto**:
 ```
-python /home/zhanghao/code_Fed_VIB/federated-learning-master/federated-learning-master/main_fed_ditto.py  --filepath Ditto.txt --dataset CIFAR100 --method ditto --mu 0.1 --lr 0.5 --local_ep 10 --lr_decay 1 --rule Dirichlet --dir_a 0.3 --gpu 0 --epoch 500 --beta 0.001 --bs 10 --local_bs 48
+python /main_fed_ditto.py  --filepath Ditto.txt --dataset CIFAR100 --method ditto --mu 0.1 --lr 0.5 --local_ep 10 --lr_decay 1 --rule Dirichlet --dir_a 0.3 --gpu 0 --epoch 500 --beta 0.001 --bs 10 --local_bs 48
 ```
 
 **FedSR-FT**:
 ```
-python /home/zhanghao/code_Fed_VIB/federated-learning-master/federated-learning-master/main_fedSR.py  --filepath FedSR-FT.txt --dataset CIFAR100 --method fedSR --lr 0.005 --local_ep 10 --lr_decay 1 --rule Dirichlet --dir_a 0.3 --gpu 0 --num_avg_train 1 --num_avg 1 --epoch 500 --dimZ 256 --CMI 0.001 --L2R 0.001 --bs 10 --local_bs 48 --beta2 1
+python main_fedSR.py  --filepath FedSR-FT.txt --dataset CIFAR100 --method fedSR --lr 0.005 --local_ep 10 --lr_decay 1 --rule Dirichlet --dir_a 0.3 --gpu 0 --num_avg_train 1 --num_avg 1 --epoch 500 --dimZ 256 --CMI 0.001 --L2R 0.001 --bs 10 --local_bs 48 --beta2 1
 ```
 
 **FedPAC**:
 ```
-python /home/zhanghao/code_Fed_VIB/federated-learning-master/federated-learning-master/main_fed_PAC.py  --filepath FedPAC.txt --dataset CIFAR100 --method fedPAC --lr 0.01 --beta_PAC 1 --local_ep 10 --local_rep_ep 1 --lr_decay 1 --rule Dirichlet --dir_a 0.3 --gpu 0 --epoch 500 --dimZ 512 --beta 0.001 --bs 10 --local_bs 48
+python main_fed_PAC.py  --filepath FedPAC.txt --dataset CIFAR100 --method fedPAC --lr 0.01 --beta_PAC 1 --local_ep 10 --local_rep_ep 1 --lr_decay 1 --rule Dirichlet --dir_a 0.3 --gpu 0 --epoch 500 --dimZ 512 --beta 0.001 --bs 10 --local_bs 48
 ```
 
 **FedCR**:
 ```
-python /home/zhanghao/code_Fed_VIB/federated-learning-master/federated-learning-master/main_fed.py  --filepath FedCR.txt --dataset CIFAR100 --method FedCR --lr 0.05 --local_ep 10 --lr_decay 1 --rule Dirichlet --dir_a 0.3 --gpu 0 --num_avg_train 18 --num_avg 18 --epoch 500 --dimZ 512 --beta 0.0001 --bs 10 --local_bs 48 --beta2 1
+python main_fed.py  --filepath FedCR.txt --dataset CIFAR100 --method FedCR --lr 0.05 --local_ep 10 --lr_decay 1 --rule Dirichlet --dir_a 0.3 --gpu 0 --num_avg_train 18 --num_avg 18 --epoch 500 --dimZ 512 --beta 0.0001 --bs 10 --local_bs 48 --beta2 1
 ```
 
 
