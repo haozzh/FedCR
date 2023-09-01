@@ -30,7 +30,7 @@ In this code, we compare 10 optimization methods: **FedAvg**, **FedAvg-FT**, **F
 
 **FedAvg** and ***FedAvg-FT**:
 ```
-python /home/zhanghao/code_Fed_VIB/federated-learning-master/federated-learning-master/main_fed.py  --filepath FedAvg.txt --dataset CIFAR100 --method fedavg --lr 0.01 --local_ep 10 --lr_decay 1 --rule Dirichlet --dir_a 0.3 --gpu 0 --epoch 500 --beta 0.001 --bs 10 --local_bs 48
+python main_fed.py  --filepath FedAvg.txt --dataset CIFAR100 --method fedavg --lr 0.01 --local_ep 10 --lr_decay 1 --rule Dirichlet --dir_a 0.3 --gpu 0 --epoch 500 --beta 0.001 --bs 10 --local_bs 48
 ```
 
 **FedPer**:
